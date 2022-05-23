@@ -15,7 +15,7 @@ function App() {
 
   return (
     <div className="App">
-      <form action='http://localhost:5000/uploader' method='POST' source="custom" encType='multipart/form-data'>
+      <form action='http://protecturskin.social:5000/uploader' method='POST' source="custom" encType='multipart/form-data'>
         <input type='file' name='file' className="u-border-1 u-border-grey-30 u-input u-input-rectangle" id='fileuploader' required/><br/>
         <input type='email' name='email' className="u-border-1 u-border-grey-30 u-input u-input-rectangle" id='email' placeholder="Enter your doctor's email" required/>
         <input name='checkbox' type="checkbox" onClick={counter}/> By using this feature, You agree with our <Model /><br/>
