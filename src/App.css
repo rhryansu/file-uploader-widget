@@ -12,3 +12,9 @@
   margin: auto;
   margin-top: 20px;
 }
+
+#email {
+  width: 50%;
+  margin: auto;
+  margin-bottom: 10px;
+}

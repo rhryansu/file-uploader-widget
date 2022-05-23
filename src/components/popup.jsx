@@ -2,14 +2,16 @@ import React from 'react';
 import Popup from 'reactjs-popup';
 import 'reactjs-popup/dist/index.css';
 
-const Model = ({ifAgreed}) => (
+const Model = () => (
 
 
-  <Popup trigger={open => (
-    <button className="button">Trigger - {open ? 'Opened' : 'Closed'}</button>
-  )} modal>
-    <span> Disclaimer: This application is not for personal use, you must take the report to see a professional doctor. </span>
+  <Popup trigger={
+    <a className="button">Terms & Conditions.</a>
+  } modal>
+    <span> Disclaimer: This feature is not for personal use, you must take the report to see a professional doctor. </span>
+    
   </Popup>
+  
 );
 
 export default Model;
